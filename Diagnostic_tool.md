@@ -8,3 +8,4 @@ ref: https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=
 3. we can also check the instances of that object by clicking that memory arrow
 ![image](https://user-images.githubusercontent.com/67626515/202175307-377b0123-1f79-46b4-a6da-40f186763aad.png)
 4. Further, in debug mode, the C++ runtime will store "this memory has been deleted" in all memory that goes through delete. This is to help identify "use after free". So, if your application is running in debug mode, then don't expect any freed memory to be released EVER. It will get reused tho'
+ 
